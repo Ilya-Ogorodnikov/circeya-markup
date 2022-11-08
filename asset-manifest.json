@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/circea-markup/static/css/main.ec013783.css",
-    "main.js": "/circea-markup/static/js/main.e9adc39b.js",
-    "static/media/contentFoto1.png": "/circea-markup/static/media/contentFoto1.3d65b7eedd678d998cef.png",
-    "static/media/slide7.png": "/circea-markup/static/media/slide7.55b0dda2cce2cc464217.png",
-    "static/media/slide3.png": "/circea-markup/static/media/slide3.41003bf0d410825a617f.png",
-    "static/media/slide4.png": "/circea-markup/static/media/slide4.9920d3a46aed7697486e.png",
-    "static/media/contentFoto2.png": "/circea-markup/static/media/contentFoto2.1ca83aa93eefcb6bc5ac.png",
-    "static/media/slide8.png": "/circea-markup/static/media/slide8.1f3806cab3558655c416.png",
-    "static/media/contentFoto4.png": "/circea-markup/static/media/contentFoto4.e7022257904d8c2460d6.png",
-    "static/media/slide1.png": "/circea-markup/static/media/slide1.4d6c028ee2d31868753c.png",
-    "static/media/slide6.png": "/circea-markup/static/media/slide6.23126d0c0bbae29e84be.png",
-    "static/media/contentFoto3.png": "/circea-markup/static/media/contentFoto3.7b56b2e1ed6cc15cee69.png",
-    "static/media/slide2.png": "/circea-markup/static/media/slide2.31dc7ab5056c2336bd55.png",
-    "static/media/slide5.png": "/circea-markup/static/media/slide5.c3096f45d3d00dd7f3fe.png",
-    "static/media/Orchideapromedium.ttf": "/circea-markup/static/media/Orchideapromedium.2a50e3e77eb841ff0f14.ttf",
-    "static/media/Orchideapromedium.woff": "/circea-markup/static/media/Orchideapromedium.0f6df84bde0907dc4289.woff",
-    "static/media/Orchideapromedium.woff2": "/circea-markup/static/media/Orchideapromedium.ec17121e9f0c78f8dca6.woff2",
-    "index.html": "/circea-markup/index.html",
-    "main.ec013783.css.map": "/circea-markup/static/css/main.ec013783.css.map",
-    "main.e9adc39b.js.map": "/circea-markup/static/js/main.e9adc39b.js.map"
+    "main.css": "/circeya-markup/static/css/main.eb9f12da.css",
+    "main.js": "/circeya-markup/static/js/main.d5f0f1e4.js",
+    "static/media/contentFoto1.png": "/circeya-markup/static/media/contentFoto1.3d65b7eedd678d998cef.png",
+    "static/media/slide7.png": "/circeya-markup/static/media/slide7.55b0dda2cce2cc464217.png",
+    "static/media/slide3.png": "/circeya-markup/static/media/slide3.41003bf0d410825a617f.png",
+    "static/media/slide4.png": "/circeya-markup/static/media/slide4.9920d3a46aed7697486e.png",
+    "static/media/contentFoto2.png": "/circeya-markup/static/media/contentFoto2.1ca83aa93eefcb6bc5ac.png",
+    "static/media/slide8.png": "/circeya-markup/static/media/slide8.1f3806cab3558655c416.png",
+    "static/media/contentFoto4.png": "/circeya-markup/static/media/contentFoto4.e7022257904d8c2460d6.png",
+    "static/media/slide1.png": "/circeya-markup/static/media/slide1.4d6c028ee2d31868753c.png",
+    "static/media/slide6.png": "/circeya-markup/static/media/slide6.23126d0c0bbae29e84be.png",
+    "static/media/contentFoto3.png": "/circeya-markup/static/media/contentFoto3.7b56b2e1ed6cc15cee69.png",
+    "static/media/slide2.png": "/circeya-markup/static/media/slide2.31dc7ab5056c2336bd55.png",
+    "static/media/slide5.png": "/circeya-markup/static/media/slide5.c3096f45d3d00dd7f3fe.png",
+    "static/media/Orchideapromedium.ttf": "/circeya-markup/static/media/Orchideapromedium.2a50e3e77eb841ff0f14.ttf",
+    "static/media/Orchideapromedium.woff": "/circeya-markup/static/media/Orchideapromedium.0f6df84bde0907dc4289.woff",
+    "static/media/Orchideapromedium.woff2": "/circeya-markup/static/media/Orchideapromedium.ec17121e9f0c78f8dca6.woff2",
+    "index.html": "/circeya-markup/index.html",
+    "main.eb9f12da.css.map": "/circeya-markup/static/css/main.eb9f12da.css.map",
+    "main.d5f0f1e4.js.map": "/circeya-markup/static/js/main.d5f0f1e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec013783.css",
-    "static/js/main.e9adc39b.js"
+    "static/css/main.eb9f12da.css",
+    "static/js/main.d5f0f1e4.js"
   ]
 }
