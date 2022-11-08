@@ -1,0 +1,10 @@
+@import '../../utils/saas/mixins/responsiveProperty';
+
+.content-text {
+  @include responsiveProperty('font-size', 18, 14, 1558);
+  @include responsiveProperty('line-height', 23.4, 18.2, 1558);
+
+  p {
+    padding-bottom: 10px;
+  }
+}
