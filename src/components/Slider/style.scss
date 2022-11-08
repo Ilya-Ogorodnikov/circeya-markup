@@ -12,8 +12,13 @@
 
   div {
     img {
+      transition: scale 0.4s;
       @include responsiveProperty('height', 489, 345, 1920);
       @include responsiveProperty('width', 350, 226, 1920);
+
+      &:hover {
+        scale: 1.1;
+      }
     }
   }
 
