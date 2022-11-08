@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/circeya-markup/static/css/main.3fcdc327.css",
+    "main.css": "/circeya-markup/static/css/main.321714f2.css",
     "main.js": "/circeya-markup/static/js/main.d5f0f1e4.js",
     "static/media/contentFoto1.png": "/circeya-markup/static/media/contentFoto1.3d65b7eedd678d998cef.png",
     "static/media/slide7.png": "/circeya-markup/static/media/slide7.55b0dda2cce2cc464217.png",
@@ -18,11 +18,11 @@
     "static/media/Orchideapromedium.woff": "/circeya-markup/static/media/Orchideapromedium.0f6df84bde0907dc4289.woff",
     "static/media/Orchideapromedium.woff2": "/circeya-markup/static/media/Orchideapromedium.ec17121e9f0c78f8dca6.woff2",
     "index.html": "/circeya-markup/index.html",
-    "main.3fcdc327.css.map": "/circeya-markup/static/css/main.3fcdc327.css.map",
+    "main.321714f2.css.map": "/circeya-markup/static/css/main.321714f2.css.map",
     "main.d5f0f1e4.js.map": "/circeya-markup/static/js/main.d5f0f1e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fcdc327.css",
+    "static/css/main.321714f2.css",
     "static/js/main.d5f0f1e4.js"
   ]
 }
