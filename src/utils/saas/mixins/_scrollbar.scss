@@ -1,0 +1,22 @@
+@use '../variables/colors' as colors;
+
+@mixin custom-scroll-bar() {
+  &::-webkit-scrollbar {
+    border-radius: 10px;
+    height: 10px;
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      0deg,
+      colors.$scrollGradientEnd 0%,
+      colors.$scrollGradientStart 100%
+    );
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+}
