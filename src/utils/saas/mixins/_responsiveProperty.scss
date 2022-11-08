@@ -1,0 +1,6 @@
+@mixin responsiveProperty($property, $startSize, $minSize, $maxWidth) {
+  $addSize: $startSize - $minSize;
+  #{$property}: calc(
+    #{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth})
+  );
+}

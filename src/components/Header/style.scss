@@ -1,0 +1,74 @@
+@use '../../utils/saas/variables/colors' as colors;
+@import '../../utils/saas/mixins/responsiveProperty.scss';
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(
+    0deg,
+    colors.$headerGradientStart 0%,
+    colors.$headerGradientEnd 100%
+  );
+  @include responsiveProperty('padding-top', 37, 20, 1920);
+  @include responsiveProperty('padding-bottom', 37, 20, 1920);
+  @include responsiveProperty('padding-left', 261, 20, 1920);
+  @include responsiveProperty('padding-right', 261, 20, 1920);
+  @include responsiveProperty('height', 100, 60, 1920);
+  @include responsiveProperty('margin-bottom', 200, 72, 1920);
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    &-logo {
+      display: flex;
+      gap: 8px;
+      @include responsiveProperty('height', 32, 18, 1920);
+      @include responsiveProperty('width', 170, 95, 1920);
+    }
+
+    &-contact {
+      color: colors.$phoneNumberColor;
+      font-size: 24px;
+      transition: all 0.5s;
+
+      &:hover {
+        cursor: pointer;
+        scale: 1.2;
+      }
+
+      &-number {
+        @media screen and (max-width: 699px) {
+          display: none;
+        }
+      }
+
+      &-icon {
+        text-align: end;
+        position: relative;
+
+        &-drop {
+          text-align: center;
+          position: absolute;
+          right: -15.5px;
+          width: 180px;
+          font-size: 15px;
+          background: linear-gradient(
+            0deg,
+            colors.$headerGradientEnd 0%,
+            colors.$headerGradientStart 100%
+          );
+          @include responsiveProperty('top', 40, 34, 700);
+        }
+
+        @media screen and (min-width: 700px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

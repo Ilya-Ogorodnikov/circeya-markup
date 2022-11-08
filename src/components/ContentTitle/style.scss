@@ -1,0 +1,9 @@
+@import '../../utils/saas/mixins/responsiveProperty';
+
+.content-title {
+  font-weight: 500;
+  font-family: 'Orchidea Pro', sans-serif;
+  @include responsiveProperty('padding-bottom', 25, 20, 1558);
+  @include responsiveProperty('font-size', 48, 24, 1558);
+  @include responsiveProperty('line-height', 52.8, 28.8, 1558);
+}

@@ -1,0 +1,24 @@
+@import '../../utils/saas/mixins/responsiveProperty.scss';
+
+.slider {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  @include responsiveProperty('padding-left', 261, 20, 1920);
+  @include responsiveProperty('margin-bottom', 160, 70, 1920);
+  @include responsiveProperty('gap', 40, 20, 1920);
+
+  div {
+    img {
+      @include responsiveProperty('height', 489, 345, 1920);
+      @include responsiveProperty('width', 350, 226, 1920);
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

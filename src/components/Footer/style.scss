@@ -1,0 +1,18 @@
+@use '../../utils/saas/variables/colors' as colors;
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: colors.$footerColor;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  &__text {
+    font-family: 'Roboto', sans-serif;
+    color: colors.$footerTextColor;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 18px;
+  }
+}

@@ -1,0 +1,13 @@
+@use '../../utils/saas/variables/colors' as colors;
+@import '../../utils/saas/mixins/responsiveProperty';
+
+.title-section {
+  font-family: 'Orchidea Pro', sans-serif;
+  font-weight: 500;
+  color: colors.$textColor;
+  text-transform: uppercase;
+  @include responsiveProperty('font-size', 48, 24, 1920);
+  @include responsiveProperty('line-height', 62.4, 31.2, 1920);
+  @include responsiveProperty('padding-left', 260, 20, 1920);
+  @include responsiveProperty('margin-bottom', 123, 64, 1920);
+}
